@@ -1,0 +1,155 @@
+/* Cores Default: var(--main-bg-color); */
+:root {
+  --dark: #2c2a2a;
+  --purple: #7e459b;
+  --white: #ffffff;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/* HARD RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--dark);
+}
+
+header {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 40px 5%;
+}
+
+header a h1 {
+  color: var(--white);
+  font-size: 2.5rem;
+}
+header h2 {
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+section, header{
+    width: 100%;
+}
+
+.boxste{
+  width: 35%;
+  height: 100px;
+  border-width: medium;
+  border-style: double;
+  border-color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+h3 {
+  color: #ffffff;
+  margin-top: 1rem;
+  text-align:start;
+  font-weight: 100;
+  padding-left: 10%;
+}
+
+p {
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  text-align: start;
+  padding-left: 10%;
+}
+.box{
+    width: 35%;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    border-style: double;
+    padding: 20px 20px;
+    border: 20px 20px;
+    
+
+    display:flex;
+    align-items: center;
+
+    color: var(--white);
+}
+.caixa{
+    display: inline;  
+}
+.women figure img{
+    border-radius: 80%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-style: double;
+    border-color: var(--white);
+    
+}
+.box img{
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-style: double;
+    color: var(--white);
+
+}
+.women figure figcaption{
+  color: var(--white);
+  text-align: center;
+  font-size: 0.8rem;
+
+
+}
+.woman figure{
+  gap: 0.7rem;
+  margin: 25px 50px 75px 100px;
+}
+figure{
+  width: 15%;
+  padding: 2%;
+}
+.women{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 7px;
+ 
+ 
+  
+}
+footer{
+  width: 100%;
+  padding: 40px 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  background-color: var(--white);
+}
+footer h4{
+  font-size: 1.2rem;
+}
