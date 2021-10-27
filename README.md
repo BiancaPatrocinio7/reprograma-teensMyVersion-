@@ -1,2 +1,3 @@
-# reprograma-teensMyVersion-
-Aula para aprender a utilizar o css3 e html5 na prática.
+# reprograma-teens
+Aula de Introdução ao HTML e CSS na Reprograma.
+![alt text](https://i.imgur.com/FikAGwh.jpg)
